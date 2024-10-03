@@ -1,0 +1,24 @@
+#candle {
+    margin-top: 30rem;
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+    display: grid;
+}
+ 
+#flame,
+#thread,
+#blue-part,
+#glow,
+#candle-button {
+    position: absolute;
+    justify-content: center;
+}
+
+#thread::after,
+#blue-part::after,
+#wax::before{
+    content: ' ';
+     display: block;
+
+}
